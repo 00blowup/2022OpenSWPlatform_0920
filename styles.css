@@ -20,6 +20,10 @@ li {
   margin-bottom: 10px;
 }
 
+table{
+  margin:auto;
+}
+
 iframe {
   background-color: white;
 }
