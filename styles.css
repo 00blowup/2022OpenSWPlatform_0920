@@ -11,16 +11,51 @@ h2 {
   font-weight: 100;
 }
 
-#welcome_title {
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  background-color: white;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
   margin: auto;
-  width: 100px;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 60px;
 }
 
 .block {
   margin: auto;
   width: 70%;
+}
+
+.block-content {
   background-color: #202020;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-bottom: 20px;
+  padding: 50px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
+.lable {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 10px;
 }
