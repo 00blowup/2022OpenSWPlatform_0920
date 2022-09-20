@@ -8,7 +8,7 @@
   <body>
     <marquee scrollamount="10">
       <span>nice to meet u</span>
-      <img src="https://i.imgur.com/f2oAe3K.jpg" width="100px" />
+      <img src="https://i.imgur.com/f2oAe3K.jpg" height="100px" />
     </marquee>
     <main>
       <!--제목-->
@@ -48,9 +48,53 @@
       <!--좋아하는 음식, 영화, 취미활동 소개 (비디오 등 미디어 파일 활용)-->
       <div class="block">
         <h2>My Favorites</h2>
-        <div class="block-content"></div>
-      </div>
+        <div class="block-content">
 
+
+            <ul>
+              <li>
+                <span class="lable">music</span>
+                <span class="value">Barns Courtney - Hands</span>
+              </li>
+              <li>
+                <audio controls autoplay class="indent">
+                  <source src="Barns Courtney - Hands.mp3" type="audio/mpeg">
+                </audio>
+              </li>
+              <br/>
+              <li>
+                <span class="lable">food</span>
+                <span class="value">cheese</span>
+              </li>
+              <li>
+                <img class="indent" src="https://i.imgur.com/tZBlU8H.jpg" height="700px"/>
+              </li>
+              <br/>
+              <li>
+                <span class="lable">movie</span>
+                <span class="value">Matrix / Mad Max</span>
+              </li>
+              <li class="indent">
+                <img src="https://i.imgur.com/LFs6RDw.jpg" height="700px"/>
+                <img src="https://i.imgur.com/NMJpSJA.jpg" height="700px"/>
+              </li>
+              <br/>
+              <li>
+                <span class="lable">animation</span>
+                <span class="value">Adventure Time with Finn and Jake / Jojo's Bizarre Adventure</span>
+              </li>
+              <li>
+                <iframe class="indent" width="560" height="315" src="https://www.youtube.com/embed/7Ing1lOzmGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </li>
+              <li>
+                <iframe class="indent" width="560" height="315" src="https://www.youtube.com/embed/PcuTPjgMiXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </li>
+            </ul>
+
+
+
+        </div>
+      </div>
       <!--기술블로그 임베드-->
       <div class="block">
         <h2>Blog</h2>
@@ -64,5 +108,9 @@
         </div>
       </div>
     </main>
+    <marquee class="foot" scrollamount="10">
+      <span>bye</span>
+      <img src="https://i.imgur.com/aT6sAwN.png" height="100px" />
+    </marquee>
   </body>
 </html>
